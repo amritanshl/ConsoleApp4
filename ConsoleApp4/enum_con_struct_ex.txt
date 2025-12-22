@@ -1,0 +1,44 @@
+Part 1: Enumerators (enum)
+Question 1: Habitat Finder
+Create an enum called HabitatType with values for Jungle, Ocean, Desert, and Arctic. Create a class WildAnimal that has a property for Name and its Habitat.
+
+Hint: Use the enum keyword to define the categories before you use them in the class.
+
+Sample Output: The Polar Bear lives in the Arctic.
+
+Question 2: Endangered Status Check
+Create an enum called ConservationStatus with values LeastConcern, Vulnerable, and Endangered. Write a method that takes this enum and returns a warning message.
+
+Hint: Use a switch statement to return different strings based on the status.
+
+Sample Output: Alert: The Red Panda is Endangered!
+
+Part 2: Constructors
+Question 3: The Zoo Arrival
+Create a ZooAnimal class with a Parameterized Constructor that sets the Species and the Weight of the animal when it is registered.
+
+Hint: Use this.Species = species; inside the constructor to map the input parameters to the class fields.
+
+Sample Output: Registered: Elephant, Weight: 5000kg.
+
+Question 4: The Mystery Egg
+Create a Bird class with a Default (Parameterless) Constructor. If no species is provided, the bird's species should be set to "Unknown Bird". Also, add a second constructor that allows you to name the species.
+
+Hint: This is Constructor Overloading. One constructor takes a string, the other takes nothing.
+
+Sample Output: A new egg hatched! It is an: Unknown Bird.
+
+Part 3: Structs (struct)
+Question 5: Fish Tank Dimensions
+Create a struct called TankSize that holds double Length, Width, and Height. Create one tank, copy it to a second variable, and change the second tank's dimensions to show the original doesn't change.
+
+Hint: Because a struct is a Value Type, copying tankA to tankB creates a completely independent copy on the Stack.
+
+Sample Output: Tank 1: 10x10. Tank 2 (resized): 20x20.
+
+Question 6: Animal Speed Tracker
+Create a struct called MovementSpeed with properties for TopSpeed and AverageSpeed. Add a method inside the struct called DisplaySpeed() that prints these values.
+
+Hint: Structs are great for small, data-centric objects like speeds, points, or colors.
+
+Sample Output: Cheetah Speed -> Top: 120km/h, Avg: 60km/h.
