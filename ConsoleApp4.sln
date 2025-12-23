@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassDemo", "Partial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{F1AC3089-6F96-42C0-87F5-8D1EE89908CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDemo", "AbstractDemo\AbstractDemo.csproj", "{ED3CC73B-D0D3-423C-B7D0-6640CD730219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{F1AC3089-6F96-42C0-87F5-8D1EE89908CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1AC3089-6F96-42C0-87F5-8D1EE89908CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1AC3089-6F96-42C0-87F5-8D1EE89908CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3CC73B-D0D3-423C-B7D0-6640CD730219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3CC73B-D0D3-423C-B7D0-6640CD730219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3CC73B-D0D3-423C-B7D0-6640CD730219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3CC73B-D0D3-423C-B7D0-6640CD730219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
