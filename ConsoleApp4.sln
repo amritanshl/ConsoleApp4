@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MensurationDemo", "Mensurat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonSystem", "AmazonSystem\AmazonSystem.csproj", "{77E1ACC5-5765-4A0C-9BC3-342C5423FBE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics_Demo", "Generics_Demo\Generics_Demo.csproj", "{B9612A85-8CA4-4125-83D4-E5B7CC2A65FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapG.EMS", "CapG.EMS\CapG.EMS.csproj", "{307B8BBE-3F21-43B5-85C2-7106B3FAB691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{77E1ACC5-5765-4A0C-9BC3-342C5423FBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E1ACC5-5765-4A0C-9BC3-342C5423FBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E1ACC5-5765-4A0C-9BC3-342C5423FBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9612A85-8CA4-4125-83D4-E5B7CC2A65FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9612A85-8CA4-4125-83D4-E5B7CC2A65FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9612A85-8CA4-4125-83D4-E5B7CC2A65FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9612A85-8CA4-4125-83D4-E5B7CC2A65FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307B8BBE-3F21-43B5-85C2-7106B3FAB691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307B8BBE-3F21-43B5-85C2-7106B3FAB691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307B8BBE-3F21-43B5-85C2-7106B3FAB691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307B8BBE-3F21-43B5-85C2-7106B3FAB691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
