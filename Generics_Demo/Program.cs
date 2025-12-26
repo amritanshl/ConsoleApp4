@@ -3,10 +3,9 @@ using System.Threading;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GenericDemo;
-//1.The "Dual Holder"(Generic Class)
-//Goal: Create a class that holds two variables of different types.
+
 class program {
-    // TODO: Define a class named 'DualHolder' with two generic types <T1, T2>.
+   
 public class DualHolder<T1, T2>
     {
         public T1 Item1 { get; set; }
@@ -20,12 +19,8 @@ public class DualHolder<T1, T2>
             Console.WriteLine($"Item 1: {Item1}");
             Console.WriteLine($"Item 2: {Item2}");
         }
-    }
-        
+    }     
   
-
-// TODO: Define a static void method 'Swap' with one generic type <T>.
-
 public static class Swapping
     {
         public static void Swap<T>(ref T a,  ref T b)
@@ -35,8 +30,7 @@ public static class Swapping
             b = temp;
         }
     }
-   
-// TODO: Define a class 'Triple' with one generic type <T>.
+
 public class Triple<T>
     {
         public T First { get; set; }
@@ -55,16 +49,7 @@ public class Triple<T>
 
 
     }
-    // SAMPLE INPUT: 
-    // var nums = new Triple<int>(1, 5, 9);
-    // nums.PrintAll();
-
-    // SAMPLE OUTPUT:
-    // 1, 5, 9
-
-
-
-// TODO: Define a static void method 'Inspect' with one generic type <T>.
+    
 public static class Inspector
     {
         public static void Inspect<T>(T item)
@@ -72,13 +57,6 @@ public static class Inspector
             Console.WriteLine($"Value: {item} is type {item.GetType().Name}");
         }
     }
-    // SAMPLE INPUT: 
-    // Inspect(45.5);
-    // Inspect("Hello");
-
-    // SAMPLE OUTPUT:
-    // Value: 45.5 is type Double
-    // Value: Hello is type String
 
 public static class Checker
     {
@@ -93,14 +71,6 @@ public static class Checker
             }
         }
     }
-
-// SAMPLE INPUT: 
-// CheckEqual(10, 10);
-// CheckEqual(10, 5);
-
-// SAMPLE OUTPUT:
-// Equal
-// Not Equal
 
 public static class Generator
     {
@@ -119,12 +89,7 @@ public class Result<T>
         public Result(bool success, T data) { Success = success; Data = data; }
     }
 
-
-
-//8. The "Array Printer" (Generic Method)
-//Goal: Loop through an array of any type and print the elements.
-
-    public static class Printer
+public static class Printer
     {
         public static void PrintArray<T>(T[] items)
         {
@@ -136,34 +101,6 @@ public class Result<T>
             Console.WriteLine();
         }
     }
-// TODO: Define a static void method 'PrintArray' with type <T>.
-// TODO: Accept a parameter 'T[] items'.
-// TODO: Use a foreach loop to print each item followed by a comma.
-
-// SAMPLE INPUT: 
-// string[] names = { "Sam", "Joe" };
-// PrintArray(names);
-
-// SAMPLE OUTPUT:
-// Sam, Joe,
-
-// SAMPLE INPUT: 
-// var res = new Result<string>(true, "File Found");
-// Console.WriteLine(res.Success + " - " + res.Data);
-
-// SAMPLE OUTPUT:
-// True - File Found
-// TODO: Define a static method 'GetDefault' that returns type T.
-// TODO: The method takes no parameters.
-// TODO: It should return 'default(T)'.
-
-// SAMPLE INPUT: 
-// int i = GetDefault<int>();
-// bool b = GetDefault<bool>();
-// Console.WriteLine($"Int: {i}, Bool: {b}");
-
-// SAMPLE OUTPUT:
-// Int: 0, Bool: False
 
 public static void Main() { 
         var holder1 = new DualHolder<string, int>("Age", 30);
