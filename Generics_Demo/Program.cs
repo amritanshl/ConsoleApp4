@@ -4,7 +4,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GenericDemo;
 
-class program {
+class Program {
    
 public class DualHolder<T1, T2>
     {
