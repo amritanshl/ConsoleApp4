@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapG.EMS", "CapG.EMS\CapG.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitTypes", "ImplicitTypes\ImplicitTypes.csproj", "{F4C7FE34-E085-47A8-AD18-B05B8EEDEF09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_Demo", "Lambda_Demo\Lambda_Demo.csproj", "{2B931929-232B-48EC-953A-8AA05F3B7984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{F4C7FE34-E085-47A8-AD18-B05B8EEDEF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4C7FE34-E085-47A8-AD18-B05B8EEDEF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4C7FE34-E085-47A8-AD18-B05B8EEDEF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B931929-232B-48EC-953A-8AA05F3B7984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B931929-232B-48EC-953A-8AA05F3B7984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B931929-232B-48EC-953A-8AA05F3B7984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B931929-232B-48EC-953A-8AA05F3B7984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
